@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+progress::-webkit-progress-value {
+  background-color: #352f44;
+}
+
+/* This changes the fill color (progress value) for Firefox */
+progress::-moz-progress-bar {
+  background-color: #352f44;
+}
